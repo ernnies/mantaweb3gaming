@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "module": "esnext",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noEmit": false,
+    "declaration": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+  },
+  "exclude": ["node_modules", "src/wallet", "dist"]
+}
